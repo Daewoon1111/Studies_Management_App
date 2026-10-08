@@ -6,10 +6,10 @@ Dữ liệu lưu offline bằng Room (SQLite trên máy), không cần server.
 
 ## Giao diện
 
-Chủ đề "vở bài tập": nền giấy kẻ dòng có lề đỏ (màn đăng nhập, thẻ chào ở trang Lớp học), mực xanh bi (màu chính),
+Chủ đề: nền giấy kẻ dòng có lề đỏ (màn đăng nhập, thẻ chào ở trang Lớp học), mực xanh bi (màu chính),
 bút dạ vàng (đánh dấu hôm nay, tab đang chọn, thông báo chưa đọc), bút đỏ của giáo viên (vắng, quá hạn, trùng lịch),
 xanh lá (có mặt, đã nộp). Mỗi môn có một màu riêng làm gáy thẻ, dùng thống nhất ở mọi màn hình. Tiêu đề dùng font serif,
-mã môn và giờ học dùng font monospace. Có nền tối riêng ("bàn học ban đêm"). Màu động Android 12+ được tắt để giữ bảng màu.
+mã môn và giờ học dùng font monospace. Có nền tối riêng ("bàn học ban đêm").
 
 Sinh viên **chỉ xem**, không sửa được thông tin lớp, giáo viên, điểm, điểm danh, bài tập hay hồ sơ. Thao tác ghi duy nhất:
 đăng ký / hủy đăng ký môn học, đánh dấu thông báo đã đọc và gửi tin nhắn.
@@ -32,6 +32,3 @@ Sinh viên **chỉ xem**, không sửa được thông tin lớp, giáo viên, �
 | Tin nhắn | Đầu khung: tên người đang chat + icon mở danh sách hội thoại (giáo viên, bạn học). Ô nhập: chụp ảnh, gửi file, ghi âm, nhắn tin; bấm file để mở, bấm tin thoại để nghe |
 
 Ngôn ngữ: 🇻🇳 Tiếng Việt / 🇬🇧 English / 🇯🇵 日本語. Nền: Hệ thống / Sáng / Tối. Hai cài đặt được lưu lại khi mở app lần sau.
-Yêu cầu: JDK 17+ (Android Studio có sẵn JBR 21), Android SDK 36. Gradle wrapper 8.14.3, AGP 8.13.0, Kotlin 2.1.21, Room 2.7.2, Material Icons Extended.
-Quyền: Internet (AI), micro (ghi âm, hỏi khi bấm lần đầu). Chụp ảnh dùng app camera của máy.
-Cơ sở dữ liệu lên version 3: bản cài cũ tự xóa dữ liệu cũ và nạp lại dữ liệu mẫu. Muốn nạp lại dữ liệu mẫu: xóa dữ liệu app trên máy ảo.
