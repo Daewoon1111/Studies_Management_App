@@ -1,0 +1,714 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "first_name": "John",
+      "last_name": "Doe",
+      "role": "teacher",
+      "password": "!",
+      "date_joined": "2026-10-06T00:00:00+07:00",
+      "avatar": ""
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "username": "marktwain",
+      "email": "mark.twain@example.com",
+      "first_name": "Mark",
+      "last_name": "Twain",
+      "role": "teacher",
+      "password": "!",
+      "date_joined": "2026-10-06T00:00:00+07:00",
+      "avatar": ""
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "username": "csmith",
+      "email": "c.smith@example.com",
+      "first_name": "C.",
+      "last_name": "Smith",
+      "role": "teacher",
+      "password": "!",
+      "date_joined": "2026-10-06T00:00:00+07:00",
+      "avatar": ""
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "username": "asmile",
+      "email": "a.smile@example.com",
+      "first_name": "A.",
+      "last_name": "Smile",
+      "role": "teacher",
+      "password": "!",
+      "date_joined": "2026-10-06T00:00:00+07:00",
+      "avatar": ""
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "username": "peterjohnson",
+      "email": "peter.johnson@example.com",
+      "first_name": "Peter",
+      "last_name": "Johnson",
+      "role": "teacher",
+      "password": "!",
+      "date_joined": "2026-10-06T00:00:00+07:00",
+      "avatar": ""
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "username": "kingston",
+      "email": "kingston@example.com",
+      "first_name": "Kingston",
+      "last_name": "",
+      "role": "teacher",
+      "password": "!",
+      "date_joined": "2026-10-06T00:00:00+07:00",
+      "avatar": ""
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 7,
+    "fields": {
+      "username": "annguyen",
+      "email": "an.nguyen@example.com",
+      "first_name": "An",
+      "last_name": "Nguyen",
+      "role": "student",
+      "password": "!",
+      "date_joined": "2026-10-06T00:00:00+07:00",
+      "avatar": "avatars/ava.webp"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 8,
+    "fields": {
+      "username": "binhtran",
+      "email": "binh.tran@example.com",
+      "first_name": "Binh",
+      "last_name": "Tran",
+      "role": "student",
+      "password": "!",
+      "date_joined": "2026-10-06T00:00:00+07:00",
+      "avatar": "avatars/ava.webp"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 9,
+    "fields": {
+      "username": "chile",
+      "email": "chi.le@example.com",
+      "first_name": "Chi",
+      "last_name": "Le",
+      "role": "student",
+      "password": "!",
+      "date_joined": "2026-10-06T00:00:00+07:00",
+      "avatar": "avatars/ava.webp"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 10,
+    "fields": {
+      "username": "dungpham",
+      "email": "dung.pham@example.com",
+      "first_name": "Dung",
+      "last_name": "Pham",
+      "role": "student",
+      "password": "!",
+      "date_joined": "2026-10-06T00:00:00+07:00",
+      "avatar": "avatars/ava.webp"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 11,
+    "fields": {
+      "username": "havo",
+      "email": "ha.vo@example.com",
+      "first_name": "Ha",
+      "last_name": "Vo",
+      "role": "student",
+      "password": "!",
+      "date_joined": "2026-10-06T00:00:00+07:00",
+      "avatar": "avatars/ava.webp"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 1,
+    "fields": {
+      "title": "Learn By Doing",
+      "slug": "learn-by-doing",
+      "description": "An introductory course on the principles of economics.",
+      "teacher": 1,
+      "duration_min": 180,
+      "price": "99.99",
+      "sale_price": null,
+      "sale_end_at": null,
+      "thumbnail": "courses/course_1.webp",
+      "is_published": true,
+      "created_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 2,
+    "fields": {
+      "title": "Thinking",
+      "slug": "thinking",
+      "description": "A deep dive into the art of critical thinking.",
+      "teacher": 2,
+      "duration_min": 180,
+      "price": "124.99",
+      "sale_price": "99.99",
+      "sale_end_at": "2026-12-31T23:59:59+07:00",
+      "thumbnail": "courses/course_2.webp",
+      "is_published": true,
+      "created_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 3,
+    "fields": {
+      "title": "Money Talks",
+      "slug": "money-talks",
+      "description": "A comprehensive guide to understanding money management.",
+      "teacher": 3,
+      "duration_min": 180,
+      "price": "99.99",
+      "sale_price": null,
+      "sale_end_at": null,
+      "thumbnail": "courses/course_3.webp",
+      "is_published": true,
+      "created_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 4,
+    "fields": {
+      "title": "Languages For Economics",
+      "slug": "languages-for-economics",
+      "description": "A course designed to enhance your understanding of economic concepts through language.",
+      "teacher": 4,
+      "duration_min": 180,
+      "price": "124.99",
+      "sale_price": "99.99",
+      "sale_end_at": "2026-12-31T23:59:59+07:00",
+      "thumbnail": "courses/course_4.webp",
+      "is_published": true,
+      "created_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 5,
+    "fields": {
+      "title": "Communications Make Money",
+      "slug": "communications-make-money",
+      "description": "A course focused on effective communication strategies for financial success.",
+      "teacher": 5,
+      "duration_min": 180,
+      "price": "99.99",
+      "sale_price": null,
+      "sale_end_at": null,
+      "thumbnail": "courses/course_5.webp",
+      "is_published": true,
+      "created_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 6,
+    "fields": {
+      "title": "Money Money Money",
+      "slug": "money-money-money",
+      "description": "A course dedicated to understanding the nuances of money management.",
+      "teacher": 6,
+      "duration_min": 180,
+      "price": "124.99",
+      "sale_price": "99.99",
+      "sale_end_at": "2026-12-31T23:59:59+07:00",
+      "thumbnail": "courses/course_6.webp",
+      "is_published": true,
+      "created_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 1,
+    "fields": {
+      "user": 7,
+      "course": 1,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 2,
+    "fields": {
+      "user": 7,
+      "course": 3,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 3,
+    "fields": {
+      "user": 7,
+      "course": 4,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 4,
+    "fields": {
+      "user": 7,
+      "course": 6,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 5,
+    "fields": {
+      "user": 8,
+      "course": 2,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 6,
+    "fields": {
+      "user": 8,
+      "course": 3,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 7,
+    "fields": {
+      "user": 8,
+      "course": 5,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 8,
+    "fields": {
+      "user": 8,
+      "course": 6,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 9,
+    "fields": {
+      "user": 9,
+      "course": 1,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 10,
+    "fields": {
+      "user": 9,
+      "course": 2,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 11,
+    "fields": {
+      "user": 9,
+      "course": 4,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 12,
+    "fields": {
+      "user": 9,
+      "course": 5,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 13,
+    "fields": {
+      "user": 10,
+      "course": 1,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 14,
+    "fields": {
+      "user": 10,
+      "course": 3,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 15,
+    "fields": {
+      "user": 10,
+      "course": 4,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 16,
+    "fields": {
+      "user": 10,
+      "course": 6,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 17,
+    "fields": {
+      "user": 11,
+      "course": 2,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 18,
+    "fields": {
+      "user": 11,
+      "course": 3,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 19,
+    "fields": {
+      "user": 11,
+      "course": 5,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.enrollment",
+    "pk": 20,
+    "fields": {
+      "user": 11,
+      "course": 6,
+      "enrolled_at": "2026-10-06T00:00:00+07:00"
+    }
+  },
+  {
+    "model": "content.podcast",
+    "pk": 1,
+    "fields": {
+      "title": "Economics Over The World",
+      "host": "John Doe",
+      "audio_url": "",
+      "duration_sec": 2700,
+      "published_at": null,
+      "listen_count": 1000
+    }
+  },
+  {
+    "model": "content.podcast",
+    "pk": 2,
+    "fields": {
+      "title": "We Talk",
+      "host": "Mark Twain",
+      "audio_url": "",
+      "duration_sec": 7320,
+      "published_at": "2020-08-10",
+      "listen_count": 500
+    }
+  },
+  {
+    "model": "content.podcast",
+    "pk": 3,
+    "fields": {
+      "title": "Money Comes From?",
+      "host": "Wellington",
+      "audio_url": "",
+      "duration_sec": 7320,
+      "published_at": "2021-08-30",
+      "listen_count": 500
+    }
+  },
+  {
+    "model": "content.article",
+    "pk": 1,
+    "fields": {
+      "title": "Understanding Economics",
+      "slug": "understanding-economics",
+      "body": "Economics explains how societies decide what to produce, how to produce it and who gets it.\n\nIt starts with scarcity: resources are limited, so every choice has a cost.\n\nUnderstanding these basics helps you read the news, manage money and make better decisions at work.",
+      "cover": "articles/blog_1.webp",
+      "author": null,
+      "published_at": "2026-10-06T00:00:00+07:00",
+      "view_count": 400,
+      "summary": "A short introduction to how economies work.",
+      "summary_draft": ""
+    }
+  },
+  {
+    "model": "content.article",
+    "pk": 2,
+    "fields": {
+      "title": "Exploring Global Markets",
+      "slug": "exploring-global-markets",
+      "body": "Global markets let countries specialise in what they produce best and trade for the rest.\n\nExchange rates link prices across borders. A weaker currency makes exports cheaper and imports more expensive.\n\nSupply chains spread production across many countries, which lowers costs but adds risk.",
+      "cover": "articles/blog_2.webp",
+      "author": null,
+      "published_at": "2026-10-06T00:00:00+07:00",
+      "view_count": 300,
+      "summary": "How trade connects countries and prices.",
+      "summary_draft": ""
+    }
+  },
+  {
+    "model": "content.article",
+    "pk": 3,
+    "fields": {
+      "title": "Market Trends",
+      "slug": "market-trends",
+      "body": "Market trends are long movements in prices, demand or behaviour.\n\nWatch interest rates, inflation and employment data: they move many markets at once.\n\nShort-term noise is common, so look at several months of data before calling a trend.",
+      "cover": "articles/blog_3.webp",
+      "author": null,
+      "published_at": "2026-10-06T00:00:00+07:00",
+      "view_count": 300,
+      "summary": "Signals to watch in today's markets.",
+      "summary_draft": ""
+    }
+  },
+  {
+    "model": "content.article",
+    "pk": 4,
+    "fields": {
+      "title": "How to Analyze Market Trends",
+      "slug": "how-to-analyze-market-trends",
+      "body": "Start with a clear question, then pick data that answers it.\n\nPlot the data over time and compare it with a benchmark, like the market average.\n\nCheck for seasonality and one-off events before drawing conclusions.",
+      "cover": "articles/blog_4.webp",
+      "author": null,
+      "published_at": "2026-10-06T00:00:00+07:00",
+      "view_count": 300,
+      "summary": "A simple method to read market data.",
+      "summary_draft": ""
+    }
+  },
+  {
+    "model": "content.testimonial",
+    "pk": 1,
+    "fields": {
+      "user": 7,
+      "content": "The lessons are short and practical, I finally understand inflation.",
+      "is_approved": true,
+      "created_at": "2026-10-01T09:00:00+07:00"
+    }
+  },
+  {
+    "model": "content.testimonial",
+    "pk": 2,
+    "fields": {
+      "user": 8,
+      "content": "Money Talks changed how I plan my monthly budget.",
+      "is_approved": true,
+      "created_at": "2026-10-02T09:00:00+07:00"
+    }
+  },
+  {
+    "model": "content.testimonial",
+    "pk": 3,
+    "fields": {
+      "user": 9,
+      "content": "Great podcasts for my commute, clear and easy to follow.",
+      "is_approved": true,
+      "created_at": "2026-10-03T09:00:00+07:00"
+    }
+  },
+  {
+    "model": "content.testimonial",
+    "pk": 4,
+    "fields": {
+      "user": 10,
+      "content": "Teachers explain economic terms in plain English.",
+      "is_approved": true,
+      "created_at": "2026-10-04T09:00:00+07:00"
+    }
+  },
+  {
+    "model": "content.testimonial",
+    "pk": 5,
+    "fields": {
+      "user": 11,
+      "content": "The articles are a nice warm-up before each course.",
+      "is_approved": true,
+      "created_at": "2026-10-05T09:00:00+07:00"
+    }
+  },
+  {
+    "model": "content.testimonial",
+    "pk": 6,
+    "fields": {
+      "user": 7,
+      "content": "Good value during the sale, I enrolled in two courses.",
+      "is_approved": true,
+      "created_at": "2026-10-06T09:00:00+07:00"
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 1,
+    "fields": {
+      "course": 1,
+      "order": 1,
+      "title": "What is economics?",
+      "content": "Economics studies how people, companies and governments use limited resources to meet unlimited wants.\n\nEvery choice has an opportunity cost: the value of the best option you give up. Choosing to study tonight costs you the time you could spend working or resting.\n\nMicroeconomics looks at individual households and firms. Macroeconomics looks at the whole economy: growth, inflation and unemployment."
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 2,
+    "fields": {
+      "course": 1,
+      "order": 2,
+      "title": "Supply and demand",
+      "content": "Demand shows how much buyers want at each price. When the price rises, people usually buy less.\n\nSupply shows how much sellers offer at each price. Higher prices encourage firms to produce more.\n\nThe market price settles where supply equals demand. A shortage pushes prices up; a surplus pushes prices down."
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 3,
+    "fields": {
+      "course": 2,
+      "order": 1,
+      "title": "Thinking like an economist",
+      "content": "Economists ask what incentives people face. A small change in cost or reward can change behaviour a lot.\n\nThink at the margin: compare the extra benefit of one more unit with its extra cost, not the total.\n\nSunk costs are money or time already spent that cannot be recovered. Good decisions ignore them."
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 4,
+    "fields": {
+      "course": 2,
+      "order": 2,
+      "title": "Checking claims and data",
+      "content": "Correlation is not causation. Ice cream sales and drowning both rise in summer, but one does not cause the other.\n\nAlways ask about the sample: who was measured, how many, and when.\n\nLook for the counterfactual: what would have happened without the policy or event?"
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 5,
+    "fields": {
+      "course": 3,
+      "order": 1,
+      "title": "Building a budget",
+      "content": "A budget lists your income and planned spending for a month. Start with fixed costs like rent, then variable costs like food.\n\nThe 50/30/20 rule is a simple guide: 50% needs, 30% wants, 20% savings and debt repayment.\n\nTrack spending for a few weeks before setting limits, so your budget matches real habits."
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 6,
+    "fields": {
+      "course": 3,
+      "order": 2,
+      "title": "Saving and interest",
+      "content": "Interest is the price of money over time. Savers earn interest; borrowers pay it.\n\nCompound interest means you earn interest on past interest, so money grows faster the longer you save.\n\nInflation reduces what money can buy. A savings rate below inflation means your real savings shrink."
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 7,
+    "fields": {
+      "course": 4,
+      "order": 1,
+      "title": "Key economic vocabulary",
+      "content": "GDP (gross domestic product) is the total value of goods and services produced in a country in a year.\n\nInflation is a general rise in prices. Deflation is a general fall in prices.\n\nUnemployment rate is the share of people who want a job and are actively looking but do not have one."
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 8,
+    "fields": {
+      "course": 4,
+      "order": 2,
+      "title": "Explaining numbers clearly",
+      "content": "Round numbers and compare them to something familiar: \"about the price of a coffee a day\".\n\nSay whether a change is in percent or percentage points. Interest rising from 2% to 3% is one percentage point, but a 50% increase.\n\nUse one chart for one message, and label the axes."
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 9,
+    "fields": {
+      "course": 5,
+      "order": 1,
+      "title": "Communicating value",
+      "content": "Customers buy outcomes, not features. Explain what problem your product solves and for whom.\n\nPrice signals quality. Discounts can raise sales now but may lower the value customers expect later.\n\nTrust lowers transaction costs: clear terms and honest claims make people decide faster."
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 10,
+    "fields": {
+      "course": 5,
+      "order": 2,
+      "title": "Negotiation basics",
+      "content": "Know your BATNA, the best alternative to a negotiated agreement. It sets the point where you walk away.\n\nLook for trades: give what is cheap for you but valuable to the other side.\n\nAnchoring matters: the first number mentioned often shapes the final deal."
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 11,
+    "fields": {
+      "course": 6,
+      "order": 1,
+      "title": "What is money?",
+      "content": "Money has three functions: a medium of exchange, a unit of account and a store of value.\n\nModern money is mostly digital bank deposits, created when banks make loans.\n\nCentral banks manage the money supply and set policy interest rates to keep inflation stable."
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 12,
+    "fields": {
+      "course": 6,
+      "order": 2,
+      "title": "Inflation and your wallet",
+      "content": "When inflation is high, the same salary buys fewer goods. This is a fall in real income.\n\nCentral banks raise interest rates to cool demand and slow inflation; borrowing becomes more expensive.\n\nDiversifying savings across assets helps protect purchasing power over the long term."
+    }
+  }
+]
